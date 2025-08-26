@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");  
+.video{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    filter: brightness(0.5);
+}
+
+.container{
+    margin-top: 8%;
+    background-color: transparent;
+    width: auto;
+    position: relative;
+    z-index: 2;
+  
+}
+
+.titulos{
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: aliceblue;
+  margin: 15px;
+  
+
+
+  box-shadow: 2px 2px 35px rgb(6, 36, 85) ;
+  border-radius: 25px;
+  padding: 10px;
+
+  
+
+}
+
+.formulario{
+  box-shadow: 2px 2px 35px rgb(6, 36, 85) ;
+  border-radius: 25px;
+  padding: 10px;
+  
+    
+   
+}
+
+label{
+  font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 23px;
+  color: #fafafa;
+}
+
+.formulario input,
+.formulario select {
+  background-color: #12205e; 
+  color: white;              
+  border: 1px solid ; 
+}
+
+
+.btn-registro {
+ font-family: "DM Serif Display", serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 15px;
+  color: #fafafa;
+    
+  background-color: #112049; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-weight: 100;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(24, 51, 107, 0.671);
+}
+
+.btn-registro:hover {
+  background-color: #1863c5;  
+  transform: scale(1.05);     
+  cursor: pointer;
+}
+
+.formulario .form-text{
+    color: #ffffff;
+}
+
+.mb-3{
+  font-size: 80px;
+}

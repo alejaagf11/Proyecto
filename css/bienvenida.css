@@ -169,3 +169,36 @@ button{
  border: none; 
  margin-right: 40px;
 }
+
+#agradecimiento {
+  text-align: center;
+  max-width: 600px;
+  color: #1a237e;
+}
+
+#agradecimiento .tittle {
+  font-weight: 700;
+  color: #1a237e;
+
+}
+
+#agradecimiento .content {
+  line-height: 1.5;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+
+#agradecimiento button {
+  background-color: #2c0932;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#agradecimiento button:hover {
+  background-color: #1e0089;
+  transform: scale(1.05);
+}
